@@ -1,0 +1,15 @@
+curl -u lKE4RYewNi1RVvv2LR4VXS9l:SQVEOB0VzPZqbM19xQw0d9PeFDLUuYjYUuWIysC2H6jmTLWk -XPOST http://127.0.0.1:5000/oauth/token -F grant_type=password -F username=usuario -F password=123 -F scope=cursos
+
+
+
+http://127.0.0.1:5000/oauth/authorize?response_type=code&client_id=LEEqMXV3dvkQpduOKQClYacE&scope=cursos
+
+code=EVTEAYQCt3x92BTKkjDoboSM7V4gdt1mp4Q40tPnA6ovk6tr
+
+
+curl -u wl51Uxwwx2vKLDYxLK2GyK7S:H5yqezs0RM1LEBdzXHUIh3yBBeWQ7WGoEGz7XBBmab2MEyCd -XPOST http://127.0.0.1:5000/oauth2/token -F grant_type=authorization_code -F scope=cursos -F code=LP4ugVCrFKKdgzHtcSRBL2gj6Afm8J4vTCyNPM9LOc7Th3h2
+
+
+
+
+syShc4qfkZwpXgLyCQHPaJGfYJjJ0yUlUOM4HlbXHA
